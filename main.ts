@@ -20,7 +20,7 @@ input.onButtonPressed(Button.B, function () {
     radio.sendString("derecha")
 })
 let index = 0
-radio.setGroup(80)
+radio.setGroup(86)
 index = 2
 basic.forever(function () {
     if (input.acceleration(Dimension.Y) < -100) {
